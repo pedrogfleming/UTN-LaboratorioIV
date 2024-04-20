@@ -1,0 +1,3 @@
+[build]
+  command="ng build test-01"
+  publish="dist/test-01"

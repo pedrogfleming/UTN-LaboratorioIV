@@ -1,0 +1,3 @@
+[build]
+  command="ng build my-first-app"
+  publish="dist/my-first-app"

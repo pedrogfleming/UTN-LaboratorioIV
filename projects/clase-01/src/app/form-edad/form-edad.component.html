@@ -1,0 +1,9 @@
+<p>Ingrese las edades para  calcular el promedio</p>
+<input type="number" [(ngModel)]="edadUno" >
+<input type="number" [(ngModel)]="edadDos">
+
+<button (click)="calcularPromedioEdades()">Promedio</button>
+<button (click)="limpiarInputs()">Reset</button>
+
+<input type="number" value="{{promedioEdades}}" readonly>
+<input type="number" value="{{sumaEdades}}" readonly>
